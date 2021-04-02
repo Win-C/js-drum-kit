@@ -15,7 +15,6 @@ function playSound(evt){
 /** Function removes the 'playing' class when transition has ended */
 function removeTransition(evt){
   if (evt.propertyName == 'transform'){
-    console.log(evt.propertyName);
     this.classList.remove('playing');
   }
 }
